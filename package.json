@@ -2,9 +2,10 @@
     "name": "currency-code-converter",
     "version": "1.0.3",
     "description": "NPM package for currency code conversion.",
-    "main": "currency-code-converter.js",
+    "main": "index.js",
+    "types": "index.d.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "keywords": [
         "currency",

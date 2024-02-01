@@ -53,7 +53,7 @@ module.exports = {
   },
 
   codeToCountry: (code) => {
-    const matchingEntries = codes.filter((entry) => entry.code === code);
+    const matchingEntries = codes.filter((entry) => entry.code === code.toUpperCase());
     if (matchingEntries.length > 0) {
         return matchingEntries.map((entry) => entry.country);
       }
@@ -61,7 +61,7 @@ module.exports = {
   },
 
   codeToCurrency: (code) => {
-    const entry = codes.find((entry) => entry.code === code);
+    const entry = codes.find((entry) => entry.code === code.toUpperCase());
     if (entry) {
       return entry.currency;
     }
@@ -69,7 +69,7 @@ module.exports = {
   },
 
   codeToNumber: (code) => {
-    const entry = codes.find((entry) => entry.code === code);
+    const entry = codes.find((entry) => entry.code === code.toUpperCase());
     if (entry) {
       return entry.number;
     }
