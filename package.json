@@ -1,0 +1,24 @@
+{
+    "name": "currency-code-converter",
+    "version": "1.0.3",
+    "description": "NPM package for currency code conversion.",
+    "main": "currency-code-converter.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "currency",
+        "converter",
+        "code",
+        "ISO"
+    ],
+    "author": "Abdullah Afzal",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abdullah-afzal/currency-code-converter"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
